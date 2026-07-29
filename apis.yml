@@ -1,7 +1,27 @@
 aid: jsgaiya
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jsgaiya.png
 name: jsgaiya
-description: jsgaiya is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Jiangsu Gaiya Environmental Engineering Co., Ltd. (江苏盖亚环境工程有限公司)
+  is a Suzhou-based environmental engineering and technology company, described on its
+  site as the region''s first firm specializing in contaminated-soil remediation, with
+  offices at the Nanjing University Suzhou High-Tech Research Institute. Its business
+  covers environmental engineering design and construction, environmental testing and
+  risk assessment, R&D and sale of environmental-protection equipment, product distribution,
+  and environmental technology consulting. It was surfaced as a portfolio company of the
+  Qiming venture network. Enrichment probes found a static Chinese-language marketing
+  website (IIS, GB2312) and no public API, developer portal, OpenAPI/AsyncAPI specification,
+  SDK, or other machine-readable developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/jsgaiya/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Environmental Engineering
+- Soil Remediation
+- Environmental Testing
+- Cleantech
+- China
+- No API Surface
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/jsgaiya-domain-security.yml
 - type: Website
   url: https://jsgaiya.cn
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
